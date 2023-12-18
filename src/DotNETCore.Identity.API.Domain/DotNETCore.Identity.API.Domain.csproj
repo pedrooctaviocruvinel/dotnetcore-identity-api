@@ -5,4 +5,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\DotNETCore.Identity.API.CrossCutting.Core\DotNETCore.Identity.API.CrossCutting.Core.csproj" />
+	</ItemGroup>
+
 </Project>

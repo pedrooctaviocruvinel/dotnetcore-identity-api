@@ -12,4 +12,10 @@
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\DotNETCore.Identity.API.Application\DotNETCore.Identity.API.Application.csproj" />
+		<ProjectReference Include="..\DotNETCore.Identity.API.CrossCutting.Core\DotNETCore.Identity.API.CrossCutting.Core.csproj" />
+		<ProjectReference Include="..\DotNETCore.Identity.API.CrossCutting\DotNETCore.Identity.API.CrossCutting.csproj" />
+	</ItemGroup>
+
 </Project>
