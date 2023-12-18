@@ -5,6 +5,32 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETCore.Identity.API.Presentation", "src\DotNETCore.Identity.API.Presentation\DotNETCore.Identity.API.Presentation.csproj", "{1B447C2B-41AD-497C-BEDA-9B4892674E85}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{9FA1F5DF-F175-4C19-9995-ECB499A0F985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{D1D0CE21-D558-41E3-BAD2-469F171E1FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C0CB7EA8-3F1C-4B17-BC96-6891DD464147}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{04491C5E-1B37-4859-A3C3-E53404E6C27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETCore.Identity.API.Application", "src\DotNETCore.Identity.API.Application\DotNETCore.Identity.API.Application.csproj", "{92CD9D99-A7B8-4B90-8D33-93BCDEB6FE0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETCore.Identity.API.Domain", "src\DotNETCore.Identity.API.Domain\DotNETCore.Identity.API.Domain.csproj", "{CD894D35-2E94-44C5-BF7F-2889D81254D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Data", "3.0 - Data", "{CFD0C558-1C7D-40F3-B637-66CEDE50AE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETCore.Identity.API.Infrastructure.Data", "src\DotNETCore.Identity.API.Infrastructure.Data\DotNETCore.Identity.API.Infrastructure.Data.csproj", "{D27FF4D0-8665-4966-9654-418F0D8AFEA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Providers", "3.1 - Providers", "{529BF2FA-7FE0-47B8-B45A-8E30CD2E956F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETCore.Identity.API.Infrastructure.Providers", "src\DotNETCore.Identity.API.Infrastructure.Providers\DotNETCore.Identity.API.Infrastructure.Providers.csproj", "{8B96ABC6-11A8-4B20-AE9F-6194DDD874C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Cross Cutting", "4 - Cross Cutting", "{A269811B-6614-4952-81D9-C73FC37DFCD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETCore.Identity.API.CrossCutting", "src\DotNETCore.Identity.API.CrossCutting\DotNETCore.Identity.API.CrossCutting.csproj", "{4BB88CE2-18EC-45AE-A674-B843C841535D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETCore.Identity.API.CrossCutting.Core", "src\DotNETCore.Identity.API.CrossCutting.Core\DotNETCore.Identity.API.CrossCutting.Core.csproj", "{2379912D-C85D-4D89-B74B-62E9ECDB37DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +41,46 @@ Global
 		{1B447C2B-41AD-497C-BEDA-9B4892674E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B447C2B-41AD-497C-BEDA-9B4892674E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B447C2B-41AD-497C-BEDA-9B4892674E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CD9D99-A7B8-4B90-8D33-93BCDEB6FE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CD9D99-A7B8-4B90-8D33-93BCDEB6FE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CD9D99-A7B8-4B90-8D33-93BCDEB6FE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CD9D99-A7B8-4B90-8D33-93BCDEB6FE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD894D35-2E94-44C5-BF7F-2889D81254D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD894D35-2E94-44C5-BF7F-2889D81254D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD894D35-2E94-44C5-BF7F-2889D81254D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD894D35-2E94-44C5-BF7F-2889D81254D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27FF4D0-8665-4966-9654-418F0D8AFEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27FF4D0-8665-4966-9654-418F0D8AFEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27FF4D0-8665-4966-9654-418F0D8AFEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27FF4D0-8665-4966-9654-418F0D8AFEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B96ABC6-11A8-4B20-AE9F-6194DDD874C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B96ABC6-11A8-4B20-AE9F-6194DDD874C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B96ABC6-11A8-4B20-AE9F-6194DDD874C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B96ABC6-11A8-4B20-AE9F-6194DDD874C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB88CE2-18EC-45AE-A674-B843C841535D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB88CE2-18EC-45AE-A674-B843C841535D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB88CE2-18EC-45AE-A674-B843C841535D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB88CE2-18EC-45AE-A674-B843C841535D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2379912D-C85D-4D89-B74B-62E9ECDB37DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2379912D-C85D-4D89-B74B-62E9ECDB37DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2379912D-C85D-4D89-B74B-62E9ECDB37DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2379912D-C85D-4D89-B74B-62E9ECDB37DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B447C2B-41AD-497C-BEDA-9B4892674E85} = {9FA1F5DF-F175-4C19-9995-ECB499A0F985}
+		{92CD9D99-A7B8-4B90-8D33-93BCDEB6FE0B} = {D1D0CE21-D558-41E3-BAD2-469F171E1FE4}
+		{CD894D35-2E94-44C5-BF7F-2889D81254D3} = {C0CB7EA8-3F1C-4B17-BC96-6891DD464147}
+		{CFD0C558-1C7D-40F3-B637-66CEDE50AE18} = {04491C5E-1B37-4859-A3C3-E53404E6C27E}
+		{D27FF4D0-8665-4966-9654-418F0D8AFEA5} = {CFD0C558-1C7D-40F3-B637-66CEDE50AE18}
+		{529BF2FA-7FE0-47B8-B45A-8E30CD2E956F} = {04491C5E-1B37-4859-A3C3-E53404E6C27E}
+		{8B96ABC6-11A8-4B20-AE9F-6194DDD874C0} = {529BF2FA-7FE0-47B8-B45A-8E30CD2E956F}
+		{4BB88CE2-18EC-45AE-A674-B843C841535D} = {A269811B-6614-4952-81D9-C73FC37DFCD1}
+		{2379912D-C85D-4D89-B74B-62E9ECDB37DB} = {A269811B-6614-4952-81D9-C73FC37DFCD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57FC0B49-87FD-4157-A5E7-3B8C0A9DE094}
 	EndGlobalSection
 EndGlobal
