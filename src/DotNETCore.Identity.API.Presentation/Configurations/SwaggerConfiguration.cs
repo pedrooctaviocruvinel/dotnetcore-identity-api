@@ -8,6 +8,7 @@ internal static class SwaggerConfiguration
         services.AddSwaggerGen(sgo =>
         {
             sgo.SwaggerDoc("v1", BuildOpenApiInfo(configuration));
+            sgo.IncludeXmlComments(Path.Combine(System.AppContext.BaseDirectory, "swagger.xml"));
             sgo.AddSecurityDefinition("Bearer", BuildOpenApiSecurityScheme());
             sgo.AddSecurityRequirement(BuildOpenApiSecurityRequirement());
         });

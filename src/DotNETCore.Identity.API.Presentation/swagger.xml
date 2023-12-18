@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNETCore.Identity.API.Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:DotNETCore.Identity.API.Presentation.Controllers.TestUser">
+            <summary>
+            Represents the User
+            </summary>
+        </member>
+        <member name="P:DotNETCore.Identity.API.Presentation.Controllers.TestUser.UserName">
+            <summary>
+            UserName of User
+            </summary>
+            <example>pedrooctaviocruvinel</example>
+        </member>
+        <member name="P:DotNETCore.Identity.API.Presentation.Controllers.TestUser.Email">
+            <summary>
+            Email of User
+            </summary>
+            <example>pedrooctaviocruvinel@gmail.com</example>
+        </member>
+        <member name="T:DotNETCore.Identity.API.Presentation.Controllers.UsersController">
+            <summary>
+            Contains the API endpoints related to User
+            </summary>
+        </member>
+        <member name="M:DotNETCore.Identity.API.Presentation.Controllers.UsersController.RetrieveById(System.String)">
+            <summary>
+            Retrieve User by Id
+            </summary>
+            <returns>User</returns>
+            <response code="200">Returns User</response>
+        </member>
+    </members>
+</doc>
